@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tbName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/teal_700"
+        android:layout_margin="24dp"
+
+        android:text="Tanbir Ali"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="24dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="18dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvdesignation"
+        android:layout_width="397dp"
+        android:layout_height="93dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Student | Budding Software Engineer"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="292dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btndkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/btnEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/btnAchievement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achievements"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
